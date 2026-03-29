@@ -68,3 +68,68 @@
     color:white;
     background-color: #004CED;
 }
+
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #004ced; /* whatever color you want */
+}
+
+
+/* chat Component */
+
+.chatComponent{
+  display: flex;
+  width:100%;
+  max-width:40rem;
+  margin:0 auto;
+  padding:0 1rem;
+  flex-direction: column;
+  
+}
+
+.chat-profile:hover{
+   background-color: #e0e3e5;
+   cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.chatImgContainer{
+   width:50px;
+   height:50px;
+   flex-shrink:0;
+ 
+}
+.chat-profile{
+  display: flex;
+  /* gap:20px; */
+  align-items: center;
+  justify-content:space-between;
+  margin:5px 0;
+  padding:1rem;
+ border-radius: 10px;
+}
+.imgTextContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.9rem;
+}
+.chatImgContainer img{
+   border-radius: 50%;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.chatStats{
+  display: flex;
+  flex-direction: column;
+  /* gap:12px; */
+  justify-content:flex-end;
+  align-items: end;
+  
+}
+
