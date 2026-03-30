@@ -39,7 +39,8 @@
   display: flex;
   gap:1.2rem;
   justify-content: center;
-  margin-top:25px;
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
 .filter-container .filter-item{
@@ -97,7 +98,7 @@
   width:100%;
   max-width:40rem;
   margin:0 auto;
-  padding:0 1rem;
+  /* padding:0 1rem; */
   flex-direction: column;
   
 }

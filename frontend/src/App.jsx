@@ -12,13 +12,19 @@ function App() {
 
   return (
     <>
-    <div className='app-container'>
-    <Navbar />
-    <ChatFilter/> 
-    <ChatComponent/>
-    <ChatFooter/>
-    </div>
-  
+      <div className='app-container'>
+        <Navbar />
+        <div className='flex flex-col items-center w-full'>
+          <div className='flex flex-col w-full max-w-lg'>
+            <ChatFilter />
+            <ChatComponent />
+          </div>
+        </div>
+      </div>
+
+      <ChatFooter />
+
+
     </>
   )
 }
