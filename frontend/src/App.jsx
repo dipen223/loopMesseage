@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import ChatFilter from './components/chatFilter';
 import ChatComponent from './components/chatComponent';
+import ChatFooter from './components/chatFooter';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <Navbar />
     <ChatFilter/> 
     <ChatComponent/>
+    <ChatFooter/>
     </div>
   
     </>
