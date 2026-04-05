@@ -26,11 +26,18 @@
 }
 
 .search-container{
-  cursor: pointer;
-  padding:0.4rem;
+ display: flex;
+ align-items: center;
+ gap:5px;
 }
 
-.search-container:hover{
+.search-container button{
+ cursor: pointer;
+  padding:0.2rem;
+  display: flex;
+}
+
+.search-container button:hover{
   background-color:#EFF1F3;
   border-radius:50px;
 }
