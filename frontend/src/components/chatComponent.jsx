@@ -42,6 +42,13 @@ const chatData = [
         time:'8:22 AM',
         status:'new'
     },
+    {
+        profile:apekshya,
+        name:'Apekshya Nepal',
+        message:'Hey,can u schedule the meeting for tomorrow at 12:32PM?',
+        time:'8:22 AM',
+        status:'new'
+    },
 ]
 const statusIcon = {
   new: <span className='status-dot' />,

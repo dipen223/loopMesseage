@@ -1,5 +1,23 @@
 .app-container{
-  margin:1em;
+  height: 100vh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.app-main{
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.app-content{
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation-bar{
@@ -7,6 +25,10 @@
   justify-content: space-between;
   align-items:center;
   margin:1rem 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #f8fafc;
 }
 
 .logo-container {
@@ -107,6 +129,9 @@
   margin:0 auto;
   /* padding:0 1rem; */
   flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
   
 }
 
@@ -158,6 +183,9 @@
   display: flex;
   justify-content: space-around;
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  bottom: 0;
+  z-index: 20;
 }
 
 .chatFooter div{
@@ -172,4 +200,3 @@
   background-color:#ffffff;
   
 }
-

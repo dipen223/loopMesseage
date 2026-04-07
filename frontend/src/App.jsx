@@ -8,23 +8,18 @@ import './App.css';
 
 
 function App() {
-
-
   return (
     <>
       <div className='app-container'>
         <Navbar />
-        <div className='flex flex-col items-center w-full'>
-          <div className='flex flex-col w-full max-w-lg'>
+        <div className='app-main'>
+          <div className='app-content'>
             <ChatFilter />
             <ChatComponent />
           </div>
         </div>
+        <ChatFooter />
       </div>
-
-      <ChatFooter />
-
-
     </>
   )
 }

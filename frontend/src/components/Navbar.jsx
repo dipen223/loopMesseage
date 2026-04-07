@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isClick, setIsClick] = useState(false);
 
   return (
-    <div className='navigation-bar'>
+    <div className='navigation-bar sticky top-0'>
       <div className='logo-container'>
         <img src={profile}></img>
         <h2>Loop</h2>
